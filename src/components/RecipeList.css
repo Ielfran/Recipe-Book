@@ -1,0 +1,14 @@
+.recipe-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.no-recipes-found {
+  text-align: center;
+  font-size: 1.2em;
+  color: #777;
+  margin-top: 50px;
+  grid-column: 1 / -1; 
+}

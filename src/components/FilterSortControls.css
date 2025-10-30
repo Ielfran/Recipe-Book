@@ -1,0 +1,30 @@
+.filter-sort-controls {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.search-input,
+.sort-select {
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+  min-width: 200px;
+}
+
+.search-input::placeholder {
+  color: #999;
+}
+
+.search-input:focus,
+.sort-select:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+}
